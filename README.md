@@ -1,6 +1,6 @@
 # Scanning Data with the Camera in SwiftUI
 WWDC22 brings brilliant **Live Text** data scanning tools which let users scan text and codes with the camera, similar to the Live Text interface in the Camera app for iOS and iPadOS developers. In this article, I will focus on the new API which called `DataScannerViewController` and share my experience of how to embed this `UIKit` API into your `SwiftUI` code. The following photo shows today's demo.
-![]()
+![](https://github.com/HuangRunHua/ScanningDataCamera/raw/main/intro.jpg)
 
 ## Provide a reason for using the camera
 Because this demo app can only be running in real world device, so to access users' camera you'd better provide a clear statement of why you need to access their camera.
