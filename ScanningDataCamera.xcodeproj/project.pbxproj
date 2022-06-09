@@ -11,6 +11,8 @@
 		BD5FBBFB2850D696001504CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FBBFA2850D696001504CF /* ContentView.swift */; };
 		BD5FBBFD2850D696001504CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5FBBFC2850D696001504CF /* Assets.xcassets */; };
 		BD5FBC002850D696001504CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5FBBFF2850D696001504CF /* Preview Assets.xcassets */; };
+		BD5FBC072850D6EA001504CF /* CameraScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FBC062850D6EA001504CF /* CameraScannerViewController.swift */; };
+		BD5FBC092850F83C001504CF /* CameraScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5FBC082850F83C001504CF /* CameraScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BD5FBBFA2850D696001504CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD5FBBFC2850D696001504CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD5FBBFF2850D696001504CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD5FBC062850D6EA001504CF /* CameraScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScannerViewController.swift; sourceTree = "<group>"; };
+		BD5FBC082850F83C001504CF /* CameraScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScanner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				BD5FBBF82850D696001504CF /* ScanningDataCameraApp.swift */,
 				BD5FBBFA2850D696001504CF /* ContentView.swift */,
+				BD5FBC082850F83C001504CF /* CameraScanner.swift */,
+				BD5FBC062850D6EA001504CF /* CameraScannerViewController.swift */,
 				BD5FBBFC2850D696001504CF /* Assets.xcassets */,
 				BD5FBBFE2850D696001504CF /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BD5FBBFB2850D696001504CF /* ContentView.swift in Sources */,
 				BD5FBBF92850D696001504CF /* ScanningDataCameraApp.swift in Sources */,
+				BD5FBC072850D6EA001504CF /* CameraScannerViewController.swift in Sources */,
+				BD5FBC092850F83C001504CF /* CameraScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +278,7 @@
 				DEVELOPMENT_TEAM = YRB62S584T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan text and codes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +308,7 @@
 				DEVELOPMENT_TEAM = YRB62S584T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan text and codes.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
