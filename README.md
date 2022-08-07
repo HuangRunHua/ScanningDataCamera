@@ -239,3 +239,6 @@ struct ContentView: View {
 
 `scanResults` is used to pass the value through views. Once the camera scan something, `scanResults` will be updated and then update the `Text` view.
 Now run this project and enjoy yourself 😀.
+
+## Next Step
+WWDC not only brings Live Text in Camera, but also simplifies how developers can enable Live Text Interactions With Images. If you are interested in how to enable Live Text Interactions With Images, please check my new article: [WWDC22: Enabling Live Text Interactions With Images in SwiftUI](https://medium.com/better-programming/enabling-live-text-interactions-with-images-in-swiftui-5dd1d7f1676). Please also check [Live Text Interaction demo](https://github.com/HuangRunHua/LiveTextWithImage).
